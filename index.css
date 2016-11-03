@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+/*header*/
+.search {
+	border: 1px;
+	border-color: #c3bebe;
+	font-family: Radar Normal; 
+	font-family: Sans serif;
+	}
+/*navigation*/
+nav {
+	display: inline;
+	}
+nav a {
+	text-decoration: none; 	
+	font-family: Ropa Sans; 
+	color:#000;
+	font-size: 46px;
+		
+	}
+nav a:hover {
+	text-decoration: underline; 	
+	font-family: 18px "Ropa Sans"; 
+	color:#DD080C;
+	font-size: 46px;
+	}
+/*aside*/
+aside p {
+	font-family: Ropa Sans;
+	color: #000;
+	font-size: 26px;
+	}
+aside p.idea {
+	font-family: Ropa Sans;
+	color: #000;
+	font-size: 56px;
+	float: center;
+	}
+.another-nav a {
+	text-decoration: none;
+	color: #c3bebe;
+	font-size: 46px;
+	}
+.another-nav a.hover {
+	text-decoration: underline;
+	color: #fff;
+	font-size: 46px;
+	}
+/*body*/
+
+.post-name a {
+	text-decoration: none;
+	color: #000;
+	font-family: Oranienbaum;
+	font-size: 60px;	
+	}
+.post-name p {
+	font-family: Oranienbaum	
+	}
+.post-name a.more {
+	text-decoration: none;
+	color: #6B0709;
+	font-family: Oranienbaum;
+	font-size: 16px;	
+	}
+.post-name a.more:hover {
+	text-decoration: underline;
+	color: #000;
+	font-family: Oranienbaum;
+	font-size: 16px;	
+	}
+/* footer */
+footer {
+	background-color: #000;
+	text-decoration: none; 	
+	font-family: Ropa Sans; 
+	color:#c3bebe;
+	}
+footer a {
+	text-decoration: none; 	
+	font-family: Ropa Sans; 
+	color:#c3bebe;
+	}
+footer a:hover {
+	text-decoration: none; 	
+	font-family: Ropa Sans; 
+	color:#fff;
+	}
+.utrend-creation p {
+	position: inherit;
+	width: 200px;
+	height: 0px;
+	float: right;
+	}
