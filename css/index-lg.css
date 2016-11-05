@@ -1,9 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 /*header*/
-* {
-    max-width: 1280px;
-}
 header {
 	background-color: #000;}
 .main-nav {
@@ -46,6 +43,7 @@ header {
 	width: 35%;
 	height: 200%;
 	margin: 2% 3% 0% 0%;
+	flex: intial;
 	border: 3px solid;
 	border-radius: 14px;
 	border-color: #c3bebe;
@@ -67,15 +65,64 @@ input[placeholder] {
 	padding: 0px;
 	position:relative;
 	}
-#bg-logo {
+#bg-logo{
 	position: relative;
 	width:100%;
+	margin: 0%;
 	}
 #logo {
 	position: absolute;
-	top: 1px;
-  	right: 30%;
-  	width: 41%;	}
+	top: 50px;
+  	right: 40%;
+  	width: 20%;
+	height: 50%;
+	}
+/*navigation*/
+nav a {
+	text-decoration: none; 	
+	font-family: Ropa Sans; 
+	color: #000;
+	font-size: 3em;
+	}
+nav a:hover {
+	text-decoration: none; 	
+	font-family: 18px "Ropa Sans"; 
+	color:#DD080C;
+	font-size: 300%;
+	}
+.nav-up {
+	margin: 1% 0% 0% 0%;
+}
+#lifestyle {
+	margin: 0% 2%;
+	border-right-style: solid;
+	}
+#travel {
+	margin: 0% 2%;
+	border-right-style: solid;
+	}
+#he {
+	margin: 0% 2%;
+}
+.square-nav {
+	margin: 0.7% 2% 0% 2%;
+}
+#she {
+	margin: 0% 2%;
+	border-right-style: solid;
+	}
+#philosophy {
+	margin: 0% 2%;
+	border-right-style: solid;
+	}
+#about-us {
+	margin: 0% 2%;
+}
+.line-menu-down {
+	display: inline;
+ 	margin: 0;
+	width:100%;
+	}
 /* do it*/
 .another-nav p {
 	text-align: center;
@@ -125,6 +172,7 @@ input[placeholder] {
 /* content */
 /*post right*/
 .post-main-right {
+	display: inline;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -162,6 +210,7 @@ input[placeholder] {
 }
 /*post-left*/
 .post-main-left {
+	display: inline;
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -231,9 +280,49 @@ footer a:hover {
 .find-us {
 	position: relative;
 }
-.utrend-creation p {
+.utrend-creation {
 	position: absolute;
 	margin-left: 70%;
 	margin-top: -3%;
 	color: red;
 	}
+/*abou us*/
+.about-us-photo {
+	width: 100%;
+	margin: 2% 0%;
+}
+.information-about {
+	font-size: 1.3em;
+	font-family: Oranienbaum;
+	text-align: center;
+	margin: 1% 9% 1% 9%;
+}
+/* other type of nav pages*/
+.article-pic-nav {
+	width: 100%;
+	margin: 2% 0%;
+}
+.name-of-article-nav {
+	text-decoration: none;
+	color: #000;
+	font-family: Oranienbaum;
+	text-align: center;
+	font-size: 2em;
+	margin: 0 auto;
+}
+.name-of-article-nav:hover {
+	text-decoration: underline;
+	color: #000;
+	font-family: Oranienbaum;
+	font-size: 2em;
+	margin: 0 auto;
+}	
+.text-of-article-nav {
+	font-size: 1.3em;
+	font-family: Oranienbaum;
+	text-align: center;
+	margin: 1% 9% 1% 9%;
+}
+article h2 {
+	text-align: center;
+}

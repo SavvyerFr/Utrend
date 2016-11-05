@@ -5,6 +5,12 @@
 	max-width: 1280px !important;
 	margin: 0 auto;
 }
+* img {
+	height: 100%;
+}
+* a {
+	text-decoration: none;
+	}
 body {
 	max-width: 1280px;
 	margin: 0 auto;
@@ -21,39 +27,14 @@ header {
     padding: 0px;
     border-width: px;
 	}
+.foto-of-logo {
+	maggin: 0;
+	}
 /*navigation*/
 nav {
 	display: inline;
 	width: 100%;
-	}
-nav a {
-	text-decoration: none; 	
-	font-family: Ropa Sans; 
-	color:#000;
-	font-size: 300%;
-	}
-nav a:hover {
-	text-decoration: none; 	
-	font-family: 18px "Ropa Sans"; 
-	color:#DD080C;
-	font-size: 300%;
-	}
-#lifestyle {
-	border-right-style: solid;
-	}
-#travel {
-	border-right-style: solid;
-	}
-#she {
-	border-right-style: solid;
-	}
-#philosophy {
-	border-right-style: solid;
-	}
-.line-menu-down {
- 	margin: 0;
-	width:100%;
-	}
+}
 /*change img video*/
 #change-info {
 	margin: 0px;
@@ -83,6 +64,7 @@ aside {
 	display: inline;
 	}
 .devide-line-left {
+	display: inline;
 	width: 100%;
 	height: 10%;
 	}

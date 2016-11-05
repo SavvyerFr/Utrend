@@ -10,27 +10,27 @@ header {
   border-width: 0px;
 	}
 #google-plus {
-	margin: 2% 1% 0% 2%;
+	margin: 2% 1% 2% 2%;
 	width: 13%;
 	}
 #facebook {
-	margin: 2% 1% 0% 0%;
+	margin: 2% 1% 2% 0%;
 	width: 13%;
 	}
 #vkontakte {
-	margin: 2% 1% 0% 0%;
+	margin: 2% 1% 2% 0%;
 	width: 13%;
 	}
 #twitter {
-	margin: 2% 1% 0% 0%;
+	margin: 2% 1% 2% 0%;
 	width: 13%;
 	}
 #pinterest {
-	margin: 2% 1% 0% 0%;
+	margin: 2% 1% 2% 0%;
 	width: 13%;
 	}
 #search-button {
-	margin: 2% 1% 0% 0%;	
+	margin: 2% 1% 2% 0%;	
 	width: 13%;
 	float: right;
 	}
@@ -52,6 +52,52 @@ header {
 	top: 1px;
   	right: 30%;
   	width: 41%;
+	}
+/*navigation*/
+nav a {
+	text-decoration: none; 	
+	font-family: Ropa Sans; 
+	color: #000;
+	font-size: 2em;
+	}
+nav a:hover {
+	text-decoration: none; 	
+	font-family: 18px "Ropa Sans"; 
+	color:#DD080C;
+	font-size: 2em;
+	}
+.nav-up {
+	margin: 0% 0% 0% 0%;
+}
+#lifestyle {
+	margin: 0% 1% 0% 0%;
+	border-right-style: solid;
+	}
+#travel {
+	margin: 0% 1%;
+	border-right-style: solid;
+	}
+#he {
+	margin: 0% 1%;
+}
+.square-nav {
+	margin: 0% 2% 0% 3%;
+}
+#she {
+	margin: 0% 0% 2% 2%;
+	border-right-style: solid;
+	}
+#philosophy {
+	margin: 0% 1%;
+	border-right-style: solid;
+	}
+#about-us {
+	margin: 0% 0% 0% 1%;
+}
+.line-menu-down {
+	display: inline;
+ 	margin: 0;
+	width:100%;
 	}
 /* do it*/
 .another-nav p {
@@ -168,7 +214,19 @@ footer a:hover {
 }
 .utrend-creation p {
 	position: absolute;
-	margin-left: 70%;
-	margin-top: -12%;
-	color: red;
+	margin-left: 80%;
+	margin-top: -7%;
+	color: #520203;
 	}
+/*abou us*/
+.about-us-photo {
+	width: 100%;
+	margin: 4% 0% 2% 0%;
+}
+.information-about {
+	font-size: 2em;
+	font-family: Oranienbaum;
+	text-align: center;
+	margin: 0% 3% 0% 3%;
+}
+/* other type of nav pages*/
