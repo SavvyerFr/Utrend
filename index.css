@@ -1,58 +1,99 @@
 @charset "utf-8";
 /* CSS Document */
+/* main */
+body {
+	max-width: 1280px;
+	margin: 0 auto;
+	}
 /*header*/
-.search {
-	border: 1px;
-	border-color: #c3bebe;
-	font-family: Radar Normal; 
-	font-family: Sans serif;
+header {
+	margin: 0;
+	}
+.main-nav {
+	margin: 0;
+	}
+.main-nav img {
+    margin: 0px;
+    padding: 0px;
+    border-width: px;
+	}
+.foto-of-logo {
+	maggin: 0;
 	}
 /*navigation*/
 nav {
 	display: inline;
+	width: 100%;
 	}
 nav a {
 	text-decoration: none; 	
 	font-family: Ropa Sans; 
 	color:#000;
-	font-size: 46px;
-		
+	font-size: 300%;
 	}
 nav a:hover {
-	text-decoration: underline; 	
+	text-decoration: none; 	
 	font-family: 18px "Ropa Sans"; 
 	color:#DD080C;
-	font-size: 46px;
+	font-size: 300%;
+	}
+#lifestyle {
+	border-right-style: solid;
+	}
+#travel {
+	border-right-style: solid;
+	}
+#she {
+	border-right-style: solid;
+	}
+#philosophy {
+	border-right-style: solid;
+	}
+.line-menu-down {
+	display: inline;
+ 	margin: 0;
+	width:100%;
+	}
+/*change img video*/
+#change-info {
+	margin: 0px;
+	padding: 0px;
+	position:relative;
+	width: 100%;
 	}
 /*aside*/
-aside p {
-	font-family: Ropa Sans;
-	color: #000;
-	font-size: 26px;
+
+aside {
+	display: inline;
+	position: relative;	
 	}
-aside p.idea {
-	font-family: Ropa Sans;
-	color: #000;
-	font-size: 56px;
-	float: center;
-	}
-.another-nav a {
-	text-decoration: none;
-	color: #c3bebe;
-	font-size: 46px;
-	}
-.another-nav a.hover {
-	text-decoration: underline;
-	color: #fff;
-	font-size: 46px;
+	/* change info */
+#change-info {
+	position: relative;
+	width: 100%;
 	}
 /*body*/
-
+/*another line */
+.divide-line-all {
+	width: 100%;
+	margin: 3% 0% 1% 0%;
+}
+	/*полоска розділення*/
+.divide img {
+	display: inline;
+	}
+.devide-line-left {
+	display: inline;
+	width: 100%;
+	height: 10%;
+	}
+/*content*/
 .post-name a {
-	text-decoration: none;
+	text-decoration: overline underline;
 	color: #000;
 	font-family: Oranienbaum;
 	font-size: 60px;	
+	text-align: center;
 	}
 .post-name p {
 	font-family: Oranienbaum	
@@ -64,31 +105,8 @@ aside p.idea {
 	font-size: 16px;	
 	}
 .post-name a.more:hover {
-	text-decoration: underline;
+	text-decoration: underline overline;
 	color: #000;
 	font-family: Oranienbaum;
 	font-size: 16px;	
-	}
-/* footer */
-footer {
-	background-color: #000;
-	text-decoration: none; 	
-	font-family: Ropa Sans; 
-	color:#c3bebe;
-	}
-footer a {
-	text-decoration: none; 	
-	font-family: Ropa Sans; 
-	color:#c3bebe;
-	}
-footer a:hover {
-	text-decoration: none; 	
-	font-family: Ropa Sans; 
-	color:#fff;
-	}
-.utrend-creation p {
-	position: inherit;
-	width: 200px;
-	height: 0px;
-	float: right;
 	}
