@@ -91,3 +91,15 @@ aside {
 	font-family: Oranienbaum;
 	font-size: 16px;	
 	}
+/*article alone*/ 
+.something-interest {
+	margin: 2% 0%;
+	
+}
+.something-interest-line {
+ 	float: right;
+	width: 75%;
+	}
+#something-interest-text {
+	font-size: 3em;
+}
