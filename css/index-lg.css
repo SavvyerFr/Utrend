@@ -73,8 +73,9 @@ input[placeholder] {
 	}
 #logo {
 	position: absolute;
-  	right: 40%;
-	}
+	top: 1px;
+  	right: 30%;
+  	width: 41%;	}
 /* do it*/
 .another-nav p {
 	text-align: center;
