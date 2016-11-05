@@ -1,32 +1,43 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>lifestyle</title>
+<meta charset="utf-8">
+<title>Utrend</title>
+<link href="https://fonts.googleapis.com/css?family=Dorsa|Fjalla+One|Oranienbaum|Ropa+Sans|Six+Caps|Slabo+27px|Teko" rel="stylesheet">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="css/index-lg.css" type="text/css" media="(min-width: 901px)">
+<link rel="stylesheet" href="css/index-sm.css" type="text/css" media="(max-width: 900px)">
 </head>
 <body>
-    <!--шапка сайту-->
+<!--шапка сайту-->
 <header>
 	<!--посилання на соцмережі-->
-	<img src="img/google+.png" alt="google+">
-    <img src="img/facebook.png" alt="facebook">
-    <img src="img/vk.png" alt="vkontakte">
-    <img src="img/twitter.png" alt="twitter">
-    <img src="img/pinterest.png" alt="pinterest">
-    <!--пошук-->
-    <input type="search" name="search" id="search" placeholder="Give me...">
-    <br>
+    <div class="main-nav">
+        <div class="social-network">
+            <img src="img/google+.png" alt="google+" id="google-plus">
+            <img src="img/facebook.png" alt="facebook" id="facebook">
+            <img src="img/vk.png" alt="vkontakte" id="vkontakte">
+            <img src="img/twitter.png" alt="twitter" id="twitter">
+            <img src="img/pinterest.png" alt="pinterest" id="pinterest">
+            <input type="search" name="search" id="search" placeholder="     Give me...">
+            <img src="img/search.png" alt="search" id="search-button">
+	        <!--пошук-->
+        </div>
+  	</div>
+  <br>
 </header>
-<!--навігація-->
 <nav>
-	<a href="lifestyle.html">Lifestyle</a>
-   	<a href="travel.html">Travel</a>
-    <a href="he.html">He</a>
-    <img src="img/small-color-square.jpg" alt="small-color-square">
-    <a href="she.html">She</a>
-   	<a href="philosophy.html">Phulosophy</a>
-    <a href="about-us.html">About us</a>
+    <a href="lifestyle.html" id="lifestyle">Lifestyle</a>
+    <a href="travel.html" id="travel">Travel</a>
+    <a href="he.html" id="he">He</a>
+  	<img src="img/small-color-square.png" alt="small-color-square">
+    <a href="she.html" id="she">She</a>
+    <a href="philosophy.html" id="philosophy">Philosophy</a>
+    <a href="about-us.html" id="about-us">About us</a>
+    <img src="img/line-divade.png" alt="line" class="line-menu-down">
 </nav>
+<!--стаття-->
+</header>
 <!--стаття-->
 <article>
     <div class="post-one">
@@ -50,14 +61,14 @@
     </div>
     <br>
 </article>
-<!--підвал-->
 <footer>
-    <p lang="uk">Знайди нас</p>
-    <p>Anna-Maria <a href="https://www.facebook.com/am.luchak" title="My FaceBook profile">Fb</a> or <a href="https://vk.com/id132372385" title="My Vk profile">Vk</a></p>
+    <div class="find-us">
+        <p lang="uk">Знайди нас</p>
+        <p>Anna-Maria <a href="https://www.facebook.com/am.luchak" title="My FaceBook profile">Facebook</a> or <a href="https://vk.com/id132372385" title="My Instagram profile">Instagram</a></p>
+        <p>Dmytro <a href="https://www.facebook.com/dmytro.fokshei" title="My FaceBook profile">Facebook</a> or <a href="https://vk.com/savyer" title="My Instagram profile">Instagram</a></p>
+    </div>
     <br>
-    <p>Dmytro <a href="https://www.facebook.com/dmytro.fokshei" title="My FaceBook profile">Fb</a> or <a href="https://vk.com/savyer" title="My Vk profile">Vk</a></p>
-    <br>
-    <p>Utrend Creations<br>2016</p>
+    <div class="utrend-creation">
+    	<p>Utrend Creations<br>2016</p>
+	</div>
 </footer>
-</body>
-</html>
