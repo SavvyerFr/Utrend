@@ -6,23 +6,24 @@
 <link href="https://fonts.googleapis.com/css?family=Dorsa|Fjalla+One|Oranienbaum|Ropa+Sans|Six+Caps|Slabo+27px|Teko" rel="stylesheet">
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="css/index-lg.css" type="text/css" media="(min-width: 901px)">
+<link rel="stylesheet" href="css/flexbox-lg.css" type="text/css" media="(min-width: 901px)">
 <link rel="stylesheet" href="css/index-sm.css" type="text/css" media="(max-width: 900px)">
+<link rel="stylesheet" href="css/flexbox-sm.css" type="text/css" media="(max-width: 901px)">
 </head>
 <body>
 <!--шапка сайту-->
 <header>
-	<!--посилання на соцмережі-->
+<!--посилання на соцмережі-->
     <div class="main-nav">
         <div class="social-network">
-            <img src="img/google+.png" alt="google+" id="google-plus">
-            <img src="img/facebook.png" alt="facebook" id="facebook">
-            <img src="img/vk.png" alt="vkontakte" id="vkontakte">
-            <img src="img/twitter.png" alt="twitter" id="twitter">
-            <img src="img/pinterest.png" alt="pinterest" id="pinterest">
-            <input type="search" name="search" id="search" placeholder="     Give me...">
-            <img src="img/search.png" alt="search" id="search-button">
-	        <!--пошук-->
-        </div>
+            <img src="img/google+.png" alt="google+" class="social-icon">
+            <img src="img/facebook.png" alt="facebook" class="social-icon">
+            <img src="img/vk.png" alt="vkontakte" class="social-icon">
+            <img src="img/twitter.png" alt="twitter" class="social-icon">
+            <img src="img/pinterest.png" alt="pinterest" class="social-icon">
+			<img src="img/search.png" alt="search" id="search-button" class="social-icon">
+			<input type="search" name="search" id="search" class="social-icon" placeholder="     Give me...">
+		</div>
   	</div>
 </header>
     <!--картинка з лого-->
@@ -34,15 +35,19 @@
 <!--навігація-->
 <nav>
 	<div class="nav-up">
-		<a href="lifestyle.html" id="lifestyle">Lifestyle   </a>
-		<a href="travel.html" id="travel">Travel   </a>
+		<a href="lifestyle.html" id="lifestyle">Lifestyle</a>
+		<img src="img/line.jpg" class="line-nav">
+		<a href="travel.html" id="travel">Travel</a>
+		<img src="img/line.jpg" class="line-nav">
 		<a href="he.html" id="he">He</a>
 		<img src="img/small-color-square.png" alt="small-color-square" class="square-nav">
-		<a href="she.html" id="she">She  </a>
-		<a href="philosophy.html" id="philosophy">Philosophy  </a>
+		<a href="she.html" id="she">She</a>
+		<img src="img/line.jpg" class="line-nav">
+		<a href="philosophy.html" id="philosophy">Philosophy</a>
+		<img src="img/line.jpg" class="line-nav">
 		<a href="about-us.html" id="about-us">About us</a>
-		<img src="img/line-divade.png" alt="line" class="line-menu-down">
 	</div>
+<img src="img/line-divade.png" alt="line" class="line-menu-down">
 </nav>
 <!--подорож чи відео-->
 <div class="change-info">
@@ -57,13 +62,12 @@
     <!--сам контент-->
     <div class="another-nav">
         <p class="think">Yor dreams don`t work<br>unless you do</p>
-        <img src="img/black-circle.jpg" alt="blak-circle" id="black-circle-film">
-        <a href="film.html" id="film" lang="uk">Фільми</a>
-        <img src="img/black-circle.jpg" alt="blak-circle" id="black-circle-idea">
-        <a href="idea.html" id="idea" lang="uk">Ідея</a>
-        <img src="img/black-circle.jpg" alt="blak-circle" id="black-circle-book">
-        <a href="book.html" id="book" lang="uk">Книги</a>
-    </div>
+        <div class="squre">
+			<a href="film.html" id="film" lang="uk">Фільми<br></a>
+			<a href="idea.html" id="idea" lang="uk">Iдея</a>
+			<a href="book.html" id="book" lang="uk">Книги</a>
+		</div>
+	</div>
 </aside>
 <!--основні статті-->
 <div class="content">
@@ -75,17 +79,14 @@
     <div class="post-main-right">
     	<img src="img/live-road.jpg" alt="live-road" class="post-picture-right">
         <div class="post-name-right">
-    		<h2><a href="livestile.html" class="post-article-right">Livestyle</a></h2>
-            <p lang="uk" class="post-text-right">Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Західній Європі як завойовники, пірати та купці. Згодом поширили свою експансію на всю Європу, Північну Атлантику та Близький Схід. У Франції «північні люди» були відомі як «нормани», в Англії їх називали «данцями», у Візантії — «варангами», на Русі — «варягами». Часто на завойованих землях засновували власні поселення. Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Захід... <a href="livestyle.html" class="more">детальніше</a></p>
+            <p lang="uk"><h2><a href="livestile.html" class="post-article-right">Livestyle</a></h2><br><br>Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Західній Європі як завойовники, пірати та купці. Згодом поширили свою експансію на всю Європу, Північну Атлантику та Близький Схід. У Франції «північні люди» були відомі як «нормани», в Англії їх називали «данцями», у Візантії — «варангами», на Русі — «варягами». Часто на завойованих землях засновували власні поселення. Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Захід... <a href="livestyle.html" class="more">детальніше</a></p>
         </div>
     </div>
-    <br>
     <!--друга стаття-->
     <div class="post-main-left">
-        <img src="img/travel-landscape.jpg" alt="travel-landscape" class="post-picture-left">
+        	<img src="img/travel-landscape.jpg" alt="travel-landscape" class="post-picture-left">
         <div class="post-name-left">
-			<h2><a href="travel.html" class="post-article-left">Travel</a></h2>
-            <p lang="uk" class="post-text-left">Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Західній Європі як завойовники, пірати та купці. Згодом поширили свою експансію на всю Європу, Північну Атлантику та Близький Схід. У Франції «північні люди» були відомі як «нормани», в Англії їх називали «данцями», у Візантії — «варангами», на Русі — «варягами». Часто на завойованих землях засновували власні поселення. Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Захід... <a href="livestyle.html" class="more">детальніше</a></p>
+            <p lang="uk"><h2><a href="travel.html" class="post-text-left">Travel</a></h2><br><br>Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Західній Європі як завойовники, пірати та купці. Згодом поширили свою експансію на всю Європу, Північну Атлантику та Близький Схід. У Франції «північні люди» були відомі як «нормани», в Англії їх називали «данцями», у Візантії — «варангами», на Русі — «варягами». Часто на завойованих землях засновували власні поселення. Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Захід... <a href="livestyle.html" class="more">детальніше</a></p>
         </div>
     </div>
     <br>
@@ -93,23 +94,18 @@
    <div class="post-main-right">
     <img src="img/his-her-mountain.jpg" alt="his-her-mountain" class="post-picture-right">
         <div class="post-name-right">
-    		<h2><a href="his-her.html" class="post-article-right">He / She</a></h2>
-            <p lang="uk" class="post-text-right">Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Західній Європі як завойовники, пірати та купці. Згодом поширили свою експансію на всю Європу, Північну Атлантику та Близький Схід. У Франції «північні люди» були відомі як «нормани», в Англії їх називали «данцями», у Візантії — «варангами», на Русі — «варягами». Часто на завойованих землях засновували власні поселення. Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Захід... <a href="livestyle.html" class="more">детальніше</a></p>
+            <p lang="uk"><h2><a href="his-her.html" class="post-article-right">He / She</a></h2><br><br>Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Західній Європі як завойовники, пірати та купці. Згодом поширили свою експансію на всю Європу, Північну Атлантику та Близький Схід. У Франції «північні люди» були відомі як «нормани», в Англії їх називали «данцями», у Візантії — «варангами», на Русі — «варягами». Часто на завойованих землях засновували власні поселення. Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Захід... <a href="livestyle.html" class="more">детальніше</a></p>
         </div>
     </div>
     <br>
 </div>
-</body>
 <!--підвал-->
 <footer>
-    <div class="find-us">
-        <p lang="uk">Знайди нас</p>
-        <p>Anna-Maria <a href="https://www.facebook.com/am.luchak" title="My FaceBook profile">Facebook</a> or <a href="https://vk.com/id132372385" title="My Instagram profile">Instagram</a></p>
-        <p>Dmytro <a href="https://www.facebook.com/dmytro.fokshei" title="My FaceBook profile">Facebook</a> or <a href="https://vk.com/savyer" title="My Instagram profile">Instagram</a></p>
-    </div>
-    <br>
-    <div class="utrend-creation">
-    	<p>Utrend Creations<br>2016</p>
+	<p lang="uk">Знайди нас</p>
+   	<div class="end">
+	    <p>Anna-Maria <a href="https://www.facebook.com/am.luchak" title="My FaceBook profile">Facebook</a> or <a href="https://vk.com/id132372385" title="My Instagram profile">Instagram</a><br>Dmytro <a href="https://www.facebook.com/dmytro.fokshei" title="My FaceBook profile">Facebook</a> or <a href="https://vk.com/savyer" title="My Instagram profile">Instagram</a></p>
+	    <p class="utrend-creation">Utrend Creations<br>2016</p>
 	</div>
 </footer>
+</body>
 </html>

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+/* nav*/
+.social-network {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.social-icon:last-child {
+	margin-left: auto;
+}
+.foto-of-logo {
+	
+}
+/*main nav*/
+.nav-up {
+	display: flex;
+	justify-content: space-between;
+	}
+/* do it*/
+.squre{
+	display: flex;
+	weight: 12em;
+}
+/* cntent*/
+.post-main-right {
+	display: flex;
+	justify-content: space-between;
+}
+
+/*footer*/
+.end {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}

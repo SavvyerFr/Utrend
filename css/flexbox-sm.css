@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+/* nav*/
+.social-network {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+#search-button {
+	align-self: flex-end;
+}
+.foto-of-logo {
+	
+}
+/*main nav*/
+.nav-up {
+	display: flex;
+	justify-content: space-between;
+	}
+/* do it*/
+.squre{
+	display: flex;
+	weight: 18em;
+}
+/* content*/
+.post-main-right {
+	display: flex;
+	flex-direction: column;
+}
+.post-main-left {
+	display: flex;
+	flex-direction: column;
+}
+/*footer*/
+.end {
+	display: flex;
+	flex-direction: row;
+}

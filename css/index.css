@@ -2,7 +2,7 @@
 /* CSS Document */
 /* main */
 * {
-	max-width: 1280px !important;
+	max-width: 1280px;
 	margin: 0 auto;
 }
 * img {
@@ -11,21 +11,12 @@
 * a {
 	text-decoration: none;
 	}
-body {
-	max-width: 1280px;
-	margin: 0 auto;
-	}
 /*header*/
 header {
 	margin: 0;
 	}
-.main-nav {
+#main-nav {
 	margin: 0;
-	}
-.main-nav img {
-    margin: 0px;
-    padding: 0px;
-    border-width: px;
 	}
 .foto-of-logo {
 	maggin: 0;
@@ -48,11 +39,6 @@ aside {
 	display: inline;
 	position: relative;	
 	}
-	/* change info */
-#change-info {
-	position: relative;
-	width: 100%;
-	}
 /*body*/
 /*another line */
 .divide-line-all {
@@ -68,12 +54,36 @@ aside {
 	width: 100%;
 	height: 10%;
 	}
+/* film */
+#film {
+	padding: 5% 7% 7% 1.5%;
+	background-image: url(../img/black-circle.jpg);
+	background-repeat: no-repeat;
+	font-size: 45px;
+	text-decoration: none;
+	color: #c3bebe;
+}
+#idea {
+	padding: 5% 7% 7% 4.5%;
+	background-image: url(../img/black-circle.jpg);
+	background-repeat: no-repeat;
+	font-size: 47px;
+	text-decoration: none;
+	color: #c3bebe;
+}
+#book {
+	padding: 5% 7% 7% 3%;
+	background-image: url(../img/black-circle.jpg);
+	background-repeat: no-repeat;
+	font-size: 45px;
+	text-decoration: none;
+	color: #c3bebe;
+}
 /*content*/
 .post-name a {
 	text-decoration: overline underline;
 	color: #000;
 	font-family: Oranienbaum;
-	font-size: 60px;	
 	text-align: center;
 	}
 .post-name p {
@@ -83,18 +93,15 @@ aside {
 	text-decoration: none;
 	color: #6B0709;
 	font-family: Oranienbaum;
-	font-size: 16px;	
 	}
 .post-name a.more:hover {
 	text-decoration: underline overline;
 	color: #000;
 	font-family: Oranienbaum;
-	font-size: 16px;	
 	}
 /*article alone*/ 
 .something-interest {
 	margin: 2% 0%;
-	
 }
 .something-interest-line {
  	float: right;
