@@ -105,7 +105,7 @@ nav a:hover {
 }
 .post-title-right, .post-title-left {
 	color: #000;
-	text-decoration: overline;
+	text-decoration: none;
 	font-family: Oranienbaum;
 	font-size: 2em;	
 	text-align: center;
