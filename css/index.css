@@ -5,9 +5,6 @@
 	max-width: 1280px;
 	margin: 0 auto;
 }
-* img {
-	height: 100%;
-}
 * a {
 	text-decoration: none;
 	}
@@ -15,48 +12,50 @@
 header {
 	margin: 0;
 	}
-#main-nav {
-	margin: 0;
-	}
+.search-place {
+	margin: 1% 3% 0% 0%;
+}
 .foto-of-logo {
 	maggin: 0;
 	}
+#bg-logo {
+	margin: 0;
+	width: 100%;
+}
 /*navigation*/
 nav {
-	display: inline;
+	margin: 0%;
+	width: 100%;
+}
+.line-nav {
+	margin: 0%;
+}
+.square-nav{
+	margin: 0%;
+}
+.line-menu-down {
+	margin: 0%;
 	width: 100%;
 }
 /*change img video*/
 #change-info {
-	margin: 0px;
-	padding: 0px;
-	position:relative;
+	margin: 1% 0%;
 	width: 100%;
 	}
 /*aside*/
-
 aside {
-	display: inline;
-	position: relative;	
+	width: 100%;	
 	}
-/*body*/
-/*another line */
-.divide-line-all {
+.devide {
 	width: 100%;
-	margin: 3% 0% 1% 0%;
+	margin: 2% 0%;
 }
-	/*полоска розділення*/
-.divide img {
-	display: inline;
-	}
-.devide-line-left {
-	display: inline;
-	width: 100%;
-	height: 10%;
-	}
-/* film */
+.think {
+	font-size: 7em;
+	text-align: center;
+	margin: 3%;
+}
 #film {
-	padding: 5% 7% 7% 1.5%;
 	background-image: url(../img/black-circle.jpg);
 	background-repeat: no-repeat;
 	font-size: 45px;
@@ -64,43 +63,45 @@ aside {
 	color: #c3bebe;
 }
 #idea {
-	padding: 5% 7% 7% 4.5%;
-	background-image: url(../img/black-circle.jpg);
-	background-repeat: no-repeat;
-	font-size: 47px;
-	text-decoration: none;
-	color: #c3bebe;
-}
-#book {
-	padding: 5% 7% 7% 3%;
 	background-image: url(../img/black-circle.jpg);
 	background-repeat: no-repeat;
 	font-size: 45px;
 	text-decoration: none;
 	color: #c3bebe;
 }
-/*content*/
-.post-name a {
-	text-decoration: overline underline;
-	color: #000;
-	font-family: Oranienbaum;
-	text-align: center;
-	}
-.post-name p {
-	font-family: Oranienbaum	
-	}
-.post-name a.more {
+#book {
+	background-image: url(../img/black-circle.jpg);
+	background-repeat: no-repeat;
+	font-size: 45px;
 	text-decoration: none;
-	color: #6B0709;
-	font-family: Oranienbaum;
+	color: #c3bebe;
+}
+.become-an-author{
+	width: 100%;
+}
+/*another line */
+.divide-line-all {
+	width: 100%;
+	margin: 3% 0% 1% 0%;
+}
+	/*полоска розділення*/
+.devide-line-left {
+	width: 100%;
+	height: 10%;
 	}
-.post-name a.more:hover {
-	text-decoration: underline overline;
-	color: #000;
-	font-family: Oranienbaum;
-	}
+/*content*/
+.content {
+	width: 100%;
+}
+.post-main-right, .post-main-left {
+	margin: 1% 0%;
+}
+/*footer*/
+footer {
+	margin: 0%;
+}
 /*article alone*/ 
-.something-interest {
+/*.something-interest {
 	margin: 2% 0%;
 }
 .something-interest-line {
@@ -109,4 +110,4 @@ aside {
 	}
 #something-interest-text {
 	font-size: 3em;
-}
+}*/

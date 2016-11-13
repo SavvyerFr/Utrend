@@ -2,36 +2,31 @@
 /* CSS Document */
 /*header*/
 header {
-	background-color: #000;}
-.main-nav {
-	margin: 0px;
-  	padding: 0px;
+	background-color: #000; 
 	}
-.social-icon {
-	margin: 1%;
-	width: 4%;
+.search-place {
+	margin: 0% 2% 0% 0%;
 }
+.social-icon {
+	margin: 1% 0% 1% 2%;
+	}
+.social-icon img {
+	margin: 0% 3% 0% 0%;
+	width: 5%;
+	}
 #search-button{
-	display: none;
-	margin: 1%;
-	width: 4%;
+	margin: 0%;
+	width: 15%;
 	}
 #search {
+	width: 300px;
+	margin: 0%;
 	overflow: auto;
-	width: 35%;
-	height: 200%;
 	border: 3px solid;
 	border-radius: 14px;
 	border-color: #c3bebe;
-	font-size: 18px;
 	font-family: "Radar Normal";  
 	background-color: #000;	
-	}
-input[placeholder] {
-	color: #c3bebe;
-	font-family: "Ropa Sans"; 
-	font-size: 18px;
-	text-overflow:ellipsis;
 	}
 /* logo */
 .foto-of-logo{
@@ -74,48 +69,62 @@ nav a:hover {
 	font-family: Ropa Sans;
 	color: #000;
 	}
+#become-author {
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	font-size: 7em;
+	color: #000;
+}
+#become-author:hover {
+	text-decoration: none;
+	font-size: 7em;
+	text-align: center;
+	color: #DD080C;
+	}
 /* content */
-/*post right*/
 
-.post-article-right {
+/*post right*/
+.post-main-right, .post-main-left {
+	width: 100%;
+}
+.post-pic {
+	width: 100%;
+}
+.post-pic-right, .post-pic-left {
+	width: 70%
+}
+.post-article-right, .post-article-left {
+	width: 30%;
+}
+.post-title-right a{
+	color: #000;
+}
+.post-title-left a{
+	color: #000;
+}
+.post-title-right, .post-title-left {
+	color: #000;
 	text-decoration: overline underline;
-	color: #000;
 	font-family: Oranienbaum;
-	font-size: 60px;	
+	font-size: 2em;	
 	text-align: center;
+	margin: 0% 0% 5% 0%;
 }
-.post-article-right:hover {
-	text-decoration: none;
+.post-title-right:hover, .post-title-left:hover {
 	color: #000;
-	font-family: Oranienbaum;
-	font-size: 60px;	
-	text-align: center;
-}
-/*post-left*/
-.post-picture-left {
-	clear: both;
-	float: right;
-}
-.post-article-left {
 	text-decoration: overline underline;
-	color: #000;
 	font-family: Oranienbaum;
-	font-size: 60px;	
+	font-size: 2em;	
 	text-align: center;
+	margin: 0% 0% 5% 0%;
 }
-.post-article-left:hover {
-	float: left;
-	margin: 1% 8% 3% 8%; 
-	display: inline;
-	text-decoration: none;
-	color: #000;
+.post-text-right, .post-text-left {
+	overflow: hidden;
+	text-overflow: ellipsis;
 	font-family: Oranienbaum;
-	font-size: 60px;	
-	text-align: center;
-}
-.post-text-left {
-	display: inline;
-	font-family: Oranienbaum;
+	font-size: 1em;	
+	margin: 0% 1%;
 }
 /* more */
 .more {
@@ -132,7 +141,6 @@ nav a:hover {
 	}
 /* footer */
 footer {
-	clear: both;
 	background-color: #000;
 	text-decoration: none; 	
 	font-family: Ropa Sans; 
@@ -146,11 +154,11 @@ footer a:hover {
 	font-family: Ropa Sans; 
 	color:#fff;
 	}
-.utrend-creation {
+.creation {
 	color: red;
 	}
 /*abou us*/
-.about-us-photo {
+/*.about-us-photo {
 	width: 100%;
 	margin: 2% 0%;
 }
@@ -161,7 +169,7 @@ footer a:hover {
 	margin: 1% 9% 1% 9%;
 }
 /* other type of nav pages*/
-.article-pic-nav {
+/*.article-pic-nav {
 	width: 100%;
 	margin: 2% 0%;
 }
@@ -189,3 +197,4 @@ footer a:hover {
 article h2 {
 	text-align: center;
 }
+*/

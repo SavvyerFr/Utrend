@@ -6,26 +6,27 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Dorsa|Fjalla+One|Oranienbaum|Ropa+Sans|Six+Caps|Slabo+27px|Teko" rel="stylesheet">
 <link rel="stylesheet" href="css/index.css">
-<link rel="stylesheet" href="css/index-lg.css" type="text/css" media="(min-width: 901px)">
-<link rel="stylesheet" href="css/flexbox-lg.css" type="text/css" media="(min-width: 901px)">
+<link rel="stylesheet" href="css/index-lg.css" type="text/css" media="(min-width: 951px)">
+<link rel="stylesheet" href="css/flexbox-lg.css" type="text/css" media="(min-width: 951px)">
+<!--
 <link rel="stylesheet" href="css/index-sm.css" type="text/css" media="(max-width: 900px)">
-<link rel="stylesheet" href="css/flexbox-sm.css" type="text/css" media="(max-width: 901px)">
+<link rel="stylesheet" href="css/flexbox-sm.css" type="text/css" media="(max-width: 901px)">-->
 </head>
 <body>
 <!--шапка сайту-->
 <header>
 <!--посилання на соцмережі-->
-    <div class="main-nav">
-        <div class="social-network">
-            <img src="img/google+.png" alt="google+" class="social-icon">
-            <img src="img/facebook.png" alt="facebook" class="social-icon">
-            <img src="img/vk.png" alt="vkontakte" class="social-icon">
-            <img src="img/twitter.png" alt="twitter" class="social-icon">
-            <img src="img/pinterest.png" alt="pinterest" class="social-icon">
-			<img src="img/search.png" alt="search" id="search-button" class="social-icon">
-			<input type="search" name="search" id="search" class="social-icon" placeholder="     Give me...">
-		</div>
-  	</div>
+	<div class="social-icon"> 
+	    <img src="img/google+.png" alt="google+">
+    	<img src="img/facebook.png" alt="facebook">
+       	<img src="img/vk.png" alt="vkontakte">
+       	<img src="img/twitter.png" alt="twitter">
+       	<img src="img/pinterest.png" alt="pinterest">
+	</div>
+	<div class="search-place">
+		<input type="search" name="search" id="search" placeholder="Give me...">
+		<img src="img/search.png" alt="search" id="search-button">
+	</div>
 </header>
     <!--картинка з лого-->
     <div class="foto-of-logo">
@@ -37,15 +38,15 @@
 <nav>
 	<div class="nav-up">
 		<a href="lifestyle.html" id="lifestyle">Lifestyle</a>
-		<img src="img/line.jpg" alt="line" class="line-nav">
+		<img src="img/line.jpg" class="line-nav">
 		<a href="travel.html" id="travel">Travel</a>
-		<img src="img/line.jpg" alt="line" class="line-nav">
+		<img src="img/line.jpg" class="line-nav">
 		<a href="he.html" id="he">He</a>
 		<img src="img/small-color-square.png" alt="small-color-square" class="square-nav">
 		<a href="she.html" id="she">She</a>
-		<img src="img/line.jpg" alt="line" class="line-nav">
+		<img src="img/line.jpg" class="line-nav">
 		<a href="philosophy.html" id="philosophy">Philosophy</a>
-		<img src="img/line.jpg" alt="line" class="line-nav">
+		<img src="img/line.jpg" class="line-nav">
 		<a href="about-us.html" id="about-us">About us</a>
 	</div>
 <img src="img/line-divade.png" alt="line" class="line-menu-down">
@@ -56,49 +57,78 @@
 </div>
 <!--додаткові секції-->
 <aside>
-    <!--полоска розділення-->
-    <div class="devide">
-        <img src="img/line-divade-left.png" alt="line" class="devide-line-left">
-	</div>
+	<img src="img/line-divade-left.png" alt="line" class="devide">
     <!--сам контент-->
     <div class="another-nav">
         <p class="think">Yor dreams don`t work<br>unless you do</p>
         <div class="squre">
-			<a href="film.html" id="film" lang="uk">Фільми<br></a>
-			<a href="idea.html" id="idea" lang="uk">Iдея</a>
-			<a href="book.html" id="book" lang="uk">Книги</a>
+			<a href="film.html" id="film" lang="uk"><br>Фільми<br></a>
+			<a href="idea.html" id="idea" lang="uk"><br>Iдея</a>
+			<a href="book.html" id="book" lang="uk"><br>Книги</a>
 		</div>
+	</div>
+	<div class="become-an-author">
+		<img src="img/divide-line-all.png" alt="line" class="divide-line-all">
+		<a href="become-an-author.html" id="become-author" lang="uk">Стань<br>автором!</a>
 	</div>
 </aside>
 <!--основні статті-->
 <div class="content">
 <!--роздільна полоска--> 
-    <div class="devide">
-        <img src="img/divide-line-all.png" alt="line" class="divide-line-all">
-	</div>
+    <img src="img/divide-line-all.png" alt="line" class="divide-line-all">
     <!--перша стаття-->
     <div class="post-main-right">
-    	<img src="img/live-road.jpg" alt="live-road" class="post-picture-right">
-        <div class="post-name-right">
-            <h2><a href="livestile.html" class="post-article-right">Livestyle</a></h2><br><br><p lang="uk">Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Західній Європі як завойовники, пірати та купці. Згодом поширили свою експансію на всю Європу, Північну Атлантику та Близький Схід. У Франції «північні люди» були відомі як «нормани», в Англії їх називали «данцями», у Візантії — «варангами», на Русі — «варягами». Часто на завойованих землях засновували власні поселення. Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Захід... <a href="livestyle.html" class="more">детальніше</a></p>
+    	<div class="post-pic-right">
+    	<img src="img/live-road.jpg" alt="live-road" class="post-pic">
+		</div>
+        <div class="post-article-right">
+        	<div class="post-title-right">
+            	<a href="livestile.html"><h2>Livestyle</h2></a>
+			</div>
+            <div class="post-text-right">
+            <p lang="uk">Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Західній Європі як завойовники, пірати та купці. Згодом поширили свою експансію на всю Європу, Північну Атлантику та Близький Схід. У Франції «північні люди» були відомі як «нормани», в Англії їх називали «данцями», у Візантії — «варангами», на Русі — «варягами». Часто на завойованих землях засновували власні поселення.... <a href="livestyle.html" class="more">детальніше</a></p>
+			</div>
         </div>
-    </div>
+     </div>
     <!--друга стаття-->
     <div class="post-main-left">
-        	<img src="img/travel-landscape.jpg" alt="travel-landscape" class="post-picture-left">
-        <div class="post-name-left">
-            <h2><a href="travel.html" class="post-text-left">Travel</a></h2><br><br><p lang="uk">Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Західній Європі як завойовники, пірати та купці. Згодом поширили свою експансію на всю Європу, Північну Атлантику та Близький Схід. У Франції «північні люди» були відомі як «нормани», в Англії їх називали «данцями», у Візантії — «варангами», на Русі — «варягами». Часто на завойованих землях засновували власні поселення. Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Захід... <a href="livestyle.html" class="more">детальніше</a></p>
+       	<div class="post-pic-left">
+        	<img src="img/travel-landscape.jpg" alt="travel-landscape" class="post-pic">
+		</div>
+       <div class="post-article-left">
+       		<div class="post-title-left">
+            	<h2><a href="travel.html">Travel</a></h2>
+			</div>
+            <div class="post-text-left">
+            	<p lang="uk">Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Західній Європі як завойовники, пірати та купці. Згодом поширили свою експансію на всю Європу, Північну Атлантику та Близький Схід. У Франції «північні люди» були відомі як «нормани», в Англії їх називали «данцями», у Візантії — «варангами», на Русі — «варягами». Часто на завойованих землях засновували власні поселення. ... <a href="livestyle.html" class="more">детальніше</a></p>
+		   </div>
         </div>
     </div>
-    <br>
     <!--треття стаття-->
+	<div class="post-main-right">
+    	<div class="post-pic-right">
+    	<img src="img/his-her-mountain.jpg" alt="his-her-mountain" class="post-pic">
+		</div>
+        <div class="post-article-right">
+        	<div class="post-title-right">
+            	<h2><a href="his-her.html">He / She</a></h2>
+			</div>
+            <div class="post-text-right">
+            <p lang="uk">Ві́кінги (від старод.сканд.- víkingr, також нормани або варяги) — скандиномовні племена, що в Середньовіччі заселяли прибережну, а також континентальну частину Скандинавії та Балтійського моря. З 8 ст. стали широко відомими в Північно-Західній Європі як завойовники, пірати та купці. Згодом поширили свою експансію на всю Європу, Північну Атлантику та Близький Схід. У Франції «північні люди» були відомі як «нормани», в Англії їх називали «данцями», у Візантії — «варангами», на Русі — «варягами». Часто на завойованих землях засновували власні поселення. <a href="livestyle.html" class="more">детальніше</a></p>
+			</div>
+        </div>
+     </div>
 </div>
 <!--підвал-->
 <footer>
 	<p lang="uk">Знайди нас</p>
-   	<div class="end">
-	    <p>Anna-Maria <a href="https://www.facebook.com/am.luchak" title="My FaceBook profile">Facebook</a> or <a href="https://vk.com/id132372385" title="My Instagram profile">Instagram</a><br>Dmytro <a href="https://www.facebook.com/dmytro.fokshei" title="My FaceBook profile">Facebook</a> or <a href="https://vk.com/savyer" title="My Instagram profile">Instagram</a></p>
-	    <p class="utrend-creation">Utrend Creations<br>2016</p>
+	<div class="end">
+		<div class="main-info">
+			<p>Anna-Maria <a href="https://www.facebook.com/am.luchak" title="My FaceBook profile">Facebook</a> or <a href="https://vk.com/id132372385" title="My Instagram profile">Instagram</a><br>Dmytro <a href="https://www.facebook.com/dmytro.fokshei" title="My FaceBook profile">Facebook</a> or <a ref="https://vk.com/savyer" title="My Instagram profile">Instagram</a></p>
+		</div>
+		<div class="creation">
+    		<p>Utrend Creations<br>2016</p>
+		</div>
 	</div>
 </footer>
 </body>
