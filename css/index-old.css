@@ -2,20 +2,20 @@
 /* CSS Document */
 /*header*/
 .social-icon {
-	margin: 1% 0% 1% 2%;
+	margin: 1% 0% 0% 0%;
 }
 .social-icon img {
-	width: 15%;
+	width: 12%;
 	margin: 0% 0% 0% 1%;
 }
 .search-place {
-	margin: 1% 2% 1% 0%;
+	margin: 1% 0%;
 }
 #search {
 	display: none;
 }
 #search-button {
-	width: 70%;
+	width: 60%;
 }
 /* logo */
 .foto-of-logo{
@@ -48,6 +48,18 @@ nav a:hover {
 	color:#DD080C;
 	font-size: 2em;
 	}
+#travel {
+	display: none;
+}
+#philosophy {
+	display:none;
+}
+#line-old-del-1 {
+	display: none;
+}
+#line-old-del-2 {
+	display: none;
+}
 .line-nav {
 	height: 2em;
 }
@@ -64,26 +76,30 @@ nav a:hover {
 }
 /* do it*/
 .another-nav p {
-	margin: 5% 0% 10% 5%;
+	margin: 5% 0% 0% 5%;
 	text-align: center;
-	font-size: 5em;
+	font-size: 4em;
 	font-family: Ropa Sans;
 	color: #000;
 	}
-.squre {
-	margin: 0%;
+.squre{
+	display: none;
+}
+#divide-line-all-del-old {
+	display: none;
 }
 /*become author*/
 #become-author {
+	margin: 0%;
 	width: 100%;
 	text-align: center;
 	text-decoration: none;
-	font-size: 5em;
+	font-size: 3em;
 	color: #000;
 }
 #become-author:hover {
 	text-decoration: none;
-	font-size: 5em;
+	font-size: 3em;
 	text-align: center;
 	color: #DD080C;
 	}
@@ -158,3 +174,4 @@ footer a:hover {
 	margin: 0% 3% 0% 3%;
 }
 /* other type of nav pages*/
+

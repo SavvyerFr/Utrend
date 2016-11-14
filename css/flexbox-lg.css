@@ -22,9 +22,6 @@ header {
 .nav-up a {
 	width: auto;
 	}
-#about-us {
-	flex-shrink: 1;
-}
 /* do it*/
 .squre{
 	display: flex;

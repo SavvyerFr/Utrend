@@ -2,11 +2,7 @@
 /* CSS Document */
 	header {
 		display: flex;
-		justify-content: space-between;
 }
-/*.search-place {
-	display: left;
-}*/
 /* nav*/
 .nav-up {
 	display: flex;
@@ -17,24 +13,6 @@
 	}
 #about-us {
 	flex-shrink: 1;
-}
-/* do it*/
-.squre{
-	display: flex;
-	flex-direction: row;
-	height: 400px;
-}
-#film {
-	align-self:flex-start;
-	height: 200px;
-}
-#idea {
-	align-self:center;
-	height: 200px;
-}
-#book {
-	align-self:flex-end;
-	height: 200px;
 }
 /*BECOME AUTOR*/
 #become-author {
