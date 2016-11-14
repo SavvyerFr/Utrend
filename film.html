@@ -3,61 +3,70 @@
 <head>
 <meta charset="utf-8">
 <title>Utrend</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Dorsa|Fjalla+One|Oranienbaum|Ropa+Sans|Six+Caps|Slabo+27px|Teko" rel="stylesheet">
 <link rel="stylesheet" href="css/index.css">
-<link rel="stylesheet" href="css/index-lg.css" type="text/css" media="(min-width: 901px)">
-<link rel="stylesheet" href="css/index-sm.css" type="text/css" media="(max-width: 900px)">
+<link rel="stylesheet" href="css/index-lg.css" type="text/css" media="(min-width: 951px)">
+<link rel="stylesheet" href="css/flexbox-lg.css" type="text/css" media="(min-width: 951px)">
+<link rel="stylesheet" href="css/index-sm.css" type="text/css" media="(min-width: 651px) and (max-width: 950px)">
+<link rel="stylesheet" href="css/flexbox-sm.css" type="text/css" media="(min-width: 651px) and (max-width: 950px)">
+<link rel="stylesheet" href="css/index-old.css" type="text/css" media="(max-width: 650px)">
+<link rel="stylesheet" href="css/flexbox-old.css" type="text/css" media="(max-width: 650px)">
 </head>
 <body>
 <!--шапка сайту-->
 <header>
-	<!--посилання на соцмережі-->
-    <div class="main-nav">
-        <div class="social-network">
-            <img src="img/google+.png" alt="google+" id="google-plus">
-            <img src="img/facebook.png" alt="facebook" id="facebook">
-            <img src="img/vk.png" alt="vkontakte" id="vkontakte">
-            <img src="img/twitter.png" alt="twitter" id="twitter">
-            <img src="img/pinterest.png" alt="pinterest" id="pinterest">
-            <input type="search" name="search" id="search" placeholder="     Give me...">
-            <img src="img/search.png" alt="search" id="search-button">
-	        <!--пошук-->
-        </div>
-  	</div>
-  <br>
+<!--посилання на соцмережі-->
+	<div class="social-icon"> 
+	    <a href="google+.html"><img src="img/google+.png" alt="google+"></a>
+    	<a href="facebook.html"><img src="img/facebook.png" alt="facebook"></a>
+       	<img src="img/vk.png" alt="vkontakte">
+       	<a href="twitter.html"><img src="img/twitter.png" alt="twitter"></a>
+       	<a href="pinterest.html"><img src="img/pinterest.png" alt="pinterest"></a>
+	</div>
+	<div class="search-place">
+		<input type="search" name="search" id="search" placeholder="Give me...">
+		<img src="img/search.png" alt="search" id="search-button">
+	</div>
 </header>
+<!--навігація-->
 <nav>
 	<div class="nav-up">
-		<a href="lifestyle.html" id="lifestyle">Lifestyle   </a>
-		<a href="travel.html" id="travel">Travel   </a>
+		<a href="lifestyle.html" id="lifestyle">Lifestyle</a>
+		<img src="img/line.jpg" class="line-nav">
+		<a href="travel.html" id="travel">Travel</a>
+		<img src="img/line.jpg" class="line-nav" id="line-old-del-1">
 		<a href="he.html" id="he">He</a>
-		<img src="img/small-color-square.png" alt="small-color-square" class="square-nav">
-		<a href="she.html" id="she">She  </a>
-		<a href="philosophy.html" id="philosophy">Philosophy  </a>
+		<a href="index.html" class="square-nav"><img src="img/small-color-square.png" alt="small-color-square" class="square-nav"></a>
+		<a href="she.html" id="she">She</a>
+		<img src="img/line.jpg" class="line-nav" id="line-old-del-2">
+		<a href="philosophy.html" id="philosophy">Philosophy</a>
+		<img src="img/line.jpg" class="line-nav">
 		<a href="about-us.html" id="about-us">About us</a>
-		<img src="img/line-divade.png" alt="line" class="line-menu-down">
 	</div>
+	<img src="img/line-divade.png" alt="line" class="line-menu-down">
 </nav>
 <!--стаття-->
 <article>
-	<img src="img/westworld.jpg" alt="westworld" class="article-pic-nav">
-    <h2><a href="libruary-in-wrzburg.html" class="name-of-article-nav" lang="uk">Назва статті про щось там дуже важливе</a></h2>
+	<a href="index.html"><img src="img/divide-line-all.png" alt="line" class="article-name-divide"></a>
+	<img src="img/westworld.jpg" alt="westworld" class="article-pic">
+    <h2><a href="libruary-in-wrzburg.html" class="article-name" lang="uk">Назва статті про щось там дуже важливе</a></h2>
 	<p class="text-of-article-nav" lang="uk">Вміст статті неймовірно важливий та необхідний для розуміння та спийняття світу та його принад...Вміст статті неймовірно важливий та необхідний для розуміння та спийняття світу та його принад...Вміст статті неймовірно важливий та необхідний для розуміння та спийняття світу та його принад... <a href="restauran-in-road.html" class="more">детальніше</a></p>
-    <img src="img/avanger-fight.jpg" alt="avanger-fight" class="article-pic-nav">
-    <h2><a href="libruary-in-wrzburg.html" class="name-of-article-nav" lang="uk">Назва статті про щось там дуже важливе</a></h2>
+    <img src="img/avanger-fight.jpg" alt="avanger-fight" class="article-pic">
+    <h2><a href="libruary-in-wrzburg.html" class="article-name" lang="uk">Назва статті про щось там дуже важливе</a></h2>
 	<p class="text-of-article-nav" lang="uk">Вміст статті неймовірно важливий та необхідний для розуміння та спийняття світу та його принад...Вміст статті неймовірно важливий та необхідний для розуміння та спийняття світу та його принад...Вміст статті неймовірно важливий та необхідний для розуміння та спийняття світу та його принад... <a href="restauran-in-road.html" class="more">детальніше</a></p>
 </article>
-</body>
 <!--підвал-->
 <footer>
-    <div class="find-us">
-        <p lang="uk">Знайди нас</p>
-        <p>Anna-Maria <a href="https://www.facebook.com/am.luchak" title="My FaceBook profile">Facebook</a> or <a href="https://vk.com/id132372385" title="My Instagram profile">Instagram</a></p>
-        <p>Dmytro <a href="https://www.facebook.com/dmytro.fokshei" title="My FaceBook profile">Facebook</a> or <a href="https://vk.com/savyer" title="My Instagram profile">Instagram</a></p>
-    </div>
-    <br>
-    <div class="utrend-creation">
-    	<p>Utrend Creations<br>2016</p>
+	<p lang="uk">Знайди нас</p>
+	<div class="end">
+		<div class="main-info">
+			<p>Anna-Maria <a href="https://www.facebook.com/am.luchak" title="My FaceBook profile">Facebook</a> or <a href="https://vk.com/id132372385" title="My Instagram profile">Instagram</a><br>Dmytro <a href="https://www.facebook.com/dmytro.fokshei" title="My FaceBook profile">Facebook</a> or <a ref="https://vk.com/savyer" title="My Instagram profile">Instagram</a></p>
+		</div>
+		<div class="creation">
+    		<p>Utrend Creations<br>2016</p>
+		</div>
 	</div>
 </footer>
+</body>
 </html>

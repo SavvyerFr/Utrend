@@ -139,44 +139,15 @@ nav a:hover {
 	font-family: Oranienbaum;
 	font-size: 16px;	
 	}
-/*abou us*/
-/*.about-us-photo {
-	width: 100%;
-	margin: 2% 0%;
-}
-.information-about {
-	font-size: 1.3em;
-	font-family: Oranienbaum;
-	text-align: center;
-	margin: 1% 9% 1% 9%;
-}
-/* other type of nav pages*/
-/*.article-pic-nav {
-	width: 100%;
-	margin: 2% 0%;
-}
-.name-of-article-nav {
-	text-decoration: none;
-	color: #000;
-	font-family: Oranienbaum;
-	text-align: center;
-	font-size: 2em;
-	margin: 0 auto;
-}
-.name-of-article-nav:hover {
-	text-decoration: underline;
-	color: #000;
-	font-family: Oranienbaum;
-	font-size: 2em;
-	margin: 0 auto;
-}	
-.text-of-article-nav {
-	font-size: 1.3em;
-	font-family: Oranienbaum;
-	text-align: center;
-	margin: 1% 9% 1% 9%;
+/*pages with article*/
+.article-name-divide{
+	display: none;
 }
 article h2 {
-	text-align: center;
+	font-size: 3.5em;
 }
-*/
+article p {
+	margin: 0% 3%;
+	color: #000;
+	font-size: 1.5em;
+}

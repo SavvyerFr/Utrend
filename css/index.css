@@ -25,7 +25,7 @@ header {
 }
 /*navigation*/
 nav {
-	margin: 0%;
+	margin: 1% 0% 0% 0%;
 	width: 100%;
 }
 .line-nav {
@@ -117,14 +117,51 @@ footer a:hover {
 .creation {
 	color: red;
 	}
-/*article alone*/ 
-/*.something-interest {
+/*pages with article*/
+.article-pic {
+	width: 100%;
+}
+article{
+	display: flex;
+	flex-direction: column;
+}
+.article-name-divide{
+	margin: 2% 0%;
+	width: 100%;
+}
+article h2, p {
+	margin: 1% 0%; 
+}
+article h2 {
+	text-align: center;
+}
+.article-name {
+	color: #000;
+}
+.article-name:hover {
+	color: #c3bebe;
+}
+/*article*/
+.name-of-article-nav{
 	margin: 2% 0%;
 }
-.something-interest-line {
- 	float: right;
-	width: 75%;
-	}
+.something-interest {
+	margin: 2% 0%;
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+}
 #something-interest-text {
-	font-size: 3em;
-}*/
+	color: #000;
+	font-size: 2em;
+}
+.something-interest img{
+	margin: 0%;
+	width: 70%;
+}
+/*about us*/
+.information-about-us {
+	margin: 2% 1%;
+	text-align: center;
+	font-size: 1.8em;
+}

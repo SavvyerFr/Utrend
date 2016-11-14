@@ -173,5 +173,15 @@ footer a:hover {
 	text-align: center;
 	margin: 0% 3% 0% 3%;
 }
-/* other type of nav pages*/
-
+/*pages with article*/
+nav {
+	display: none;
+}
+article h2 {
+	font-size: 4.3em;
+}
+article p {
+	margin: 0% 3%;
+	color: #000;
+	font-size: 2em;
+}
