@@ -1,9 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 /*header*/
-header {
-	background-color: #000; 
-	}
 .search-place {
 	margin: 0% 2% 0% 0%;
 }
@@ -61,6 +58,9 @@ nav a:hover {
  	margin: 0;
 	width:100%;
 	}
+.line-nav {
+	height: 3em;
+}
 /* do it*/
 .another-nav p {
 	margin: 5% 5% 10% 5%;
@@ -138,24 +138,6 @@ nav a:hover {
 	color: #000;
 	font-family: Oranienbaum;
 	font-size: 16px;	
-	}
-/* footer */
-footer {
-	background-color: #000;
-	text-decoration: none; 	
-	font-family: Ropa Sans; 
-	color:#c3bebe;
-	}
-footer a {
-	font-family: Ropa Sans; 
-	color:#c3bebe;
-	}
-footer a:hover {
-	font-family: Ropa Sans; 
-	color:#fff;
-	}
-.creation {
-	color: red;
 	}
 /*abou us*/
 /*.about-us-photo {
