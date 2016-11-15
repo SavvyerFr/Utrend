@@ -174,9 +174,6 @@ footer a:hover {
 	margin: 0% 3% 0% 3%;
 }
 /*pages with article*/
-nav {
-	display: none;
-}
 article h2 {
 	font-size: 4.3em;
 }
