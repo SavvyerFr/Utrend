@@ -2,6 +2,7 @@
 /* CSS Document */
 	header {
 		display: flex;
+		justify-content: space-between;
 }
 /* nav*/
 .nav-up {

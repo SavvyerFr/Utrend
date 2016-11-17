@@ -18,16 +18,36 @@
 <header>
 <!--посилання на соцмережі-->
 	<div class="social-icon"> 
-	    <a href="google+.html"><img src="img/google+.png" alt="google+"></a>
-    	<a href="facebook.html"><img src="img/facebook.png" alt="facebook"></a>
-       	<img src="img/vk.png" alt="vkontakte">
-       	<a href="twitter.html"><img src="img/twitter.png" alt="twitter"></a>
-       	<a href="pinterest.html"><img src="img/pinterest.png" alt="pinterest"></a>
+	    <a href="#null" onClick="openWin1()"><img src="img/google+.png" alt="google+"></a>
+	    <script>
+			function openWin1() {
+				myWin=open("https://plus.google.com/share?url=https%3A//savvyerfr.github.io/Utrend/index.html","displayWindow","width=520,height=300,left=350,top=170,status=no,toolbar=no,menubar=no");
+			}
+</script>
+    	<a href="#null" onClick="openWin2()"><img src="img/facebook.png"/></a>
+		<script>
+			function openWin2() {
+				myWin=open("http://www.facebook.com/sharer.php?u=https://savvyerfr.github.io/Utrend/index.html","displayWindow","width=520,height=300,left=350,top=170,status=no,toolbar=no,menubar=no");
+			}
+</script>
+      	<a href="#null" onClick="openWin3()"><img src="img/twitter.png" alt="twitter"></a>
+	    <script>
+			function openWin3() {
+				myWin=open("https://twitter.com/home?status=https%3A//savvyerfr.github.io/Utrend/index.html","displayWindow","width=520,height=300,left=350,top=170,status=no,toolbar=no,menubar=no");
+			}
+</script>
+      	<a href="#null" onClick="openWin4()"><img src="img/pinterest.png" alt="pinterest"></a>
+	    <script>
+			function openWin4() {
+				myWin=open("https://pinterest.com/pin/create/button/?url=https%3A//savvyerfr.github.io/Utrend/index.html&media=&description=","displayWindow","width=520,height=300,left=350,top=170,status=no,toolbar=no,menubar=no");
+			}
+</script>
+       	<a href="https://vk.com/share.php?url=https://savvyerfr.github.io/Utrend/index.html"><img src="img/vk.png" alt="vkontakte"></a>
 	</div>
-	<div class="search-place">
-		<input type="search" name="search" id="search" placeholder="Give me...">
-		<img src="img/search.png" alt="search" id="search-button">
-	</div>
+	<form class="form-search" method="get" action="/search" target="_blank">
+			<input type="text" name="q" placeholder="Give me..." value=""/>
+	</form>
+</header>
 </header>
     <!--картинка з лого-->
     <div class="foto-of-logo">

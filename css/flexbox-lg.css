@@ -9,11 +9,6 @@ header {
 .social-icon {
 	flex-direction: row;
 }
-.search-place {
-	display: flex;
-	justify-content: space-between;
-	height: 2.5em;
-}
 /*main nav*/
 .nav-up {
 	display: flex;
