@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Utrend</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Dorsa|Fjalla+One|Oranienbaum|Ropa+Sans|Six+Caps|Slabo+27px|Teko" rel="stylesheet">
 <link rel="stylesheet" href="css/index.css">
 <link rel="stylesheet" href="css/index-lg.css" type="text/css" media="(min-width: 951px)">
@@ -18,16 +19,35 @@
 <header>
 <!--посилання на соцмережі-->
 	<div class="social-icon"> 
-	    <a href="google+.html"><img src="img/google+.png" alt="google+"></a>
-    	<a href="facebook.html"><img src="img/facebook.png" alt="facebook"></a>
-       	<img src="img/vk.png" alt="vkontakte">
-       	<a href="twitter.html"><img src="img/twitter.png" alt="twitter"></a>
-       	<a href="pinterest.html"><img src="img/pinterest.png" alt="pinterest"></a>
+	    <a href="#null" onClick="openWin1()"><img src="img/google+.png" alt="google+"></a>
+	    <script>
+			function openWin1() {
+				myWin=open("https://plus.google.com/share?url=https%3A//savvyerfr.github.io/Utrend/index.html","displayWindow","width=520,height=300,left=350,top=170,status=no,toolbar=no,menubar=no");
+			}
+</script>
+    	<a href="#null" onClick="openWin2()"><img src="img/facebook.png"/></a>
+		<script>
+			function openWin2() {
+				myWin=open("http://www.facebook.com/sharer.php?u=https://savvyerfr.github.io/Utrend/index.html","displayWindow","width=520,height=300,left=350,top=170,status=no,toolbar=no,menubar=no");
+			}
+</script>
+      	<a href="#null" onClick="openWin3()"><img src="img/twitter.png" alt="twitter"></a>
+	    <script>
+			function openWin3() {
+				myWin=open("https://twitter.com/home?status=https%3A//savvyerfr.github.io/Utrend/index.html","displayWindow","width=520,height=300,left=350,top=170,status=no,toolbar=no,menubar=no");
+			}
+</script>
+      	<a href="#null" onClick="openWin4()"><img src="img/pinterest.png" alt="pinterest"></a>
+	    <script>
+			function openWin4() {
+				myWin=open("https://pinterest.com/pin/create/button/?url=https%3A//savvyerfr.github.io/Utrend/index.html&media=&description=","displayWindow","width=520,height=300,left=350,top=170,status=no,toolbar=no,menubar=no");
+			}
+</script>
+       	<a href="https://vk.com/share.php?url=https://savvyerfr.github.io/Utrend/index.html"><img src="img/vk.png" alt="vkontakte"></a>
 	</div>
-	<div class="search-place">
-		<input type="search" name="search" id="search" placeholder="Give me...">
-		<img src="img/search.png" alt="search" id="search-button">
-	</div>
+	<form class="form-search" method="get" action="/search" target="_blank">
+			<input type="text" name="q" placeholder="Give me..." value=""/>
+	</form>
 </header>
 <!--навігація-->
 <nav>
@@ -72,5 +92,8 @@
 		</div>
 	</div>
 </footer>
+	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
