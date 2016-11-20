@@ -51,43 +51,10 @@
   	width: 41%;
 	}
 /*navigation*/
-nav {
-	width: 100%;	
-}
-nav a {
-	width: 100%;
-	font-family: Ropa Sans; 
-	color: #000;
-	font-size: 2em;
-	}
-nav a:hover {
-	font-family: Ropa Sans; 
-	color:#DD080C;
-	font-size: 2em;
-	}
-#travel {
+.nav-main {
 	display: none;
 }
-#philosophy {
-	display:none;
-}
-#line-old-del-1 {
-	display: none;
-}
-#line-old-del-2 {
-	display: none;
-}
-.line-nav {
-	height: 2em;
-}
-.square-nav {
-	width: 1.3em;
-	height: 1em;
-}
-.line-menu-down {
- 	margin: 0;
-	width:100%;
-	}
+/*some vise word*/
 .think {
 	margin: 0%;
 }

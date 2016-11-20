@@ -4,17 +4,6 @@
 		display: flex;
 		justify-content: space-between;
 }
-/* nav*/
-.nav-up {
-	display: flex;
-	justify-content: space-between;
-	}
-.nav-up a {
-	width: auto;
-	}
-#about-us {
-	flex-shrink: 1;
-}
 /*BECOME AUTOR*/
 #become-author {
 	display: flex;
@@ -37,7 +26,6 @@
 }
 /*footer*/
 .end {
-	
 	display:flex;
 	justify-content: flex-start;
 }

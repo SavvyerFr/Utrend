@@ -4,20 +4,6 @@
 		display: flex;
 		justify-content: space-between;
 }
-/*.search-place {
-	display: left;
-}*/
-/* nav*/
-.nav-up {
-	display: flex;
-	justify-content: space-between;
-	}
-.nav-up a {
-	width: auto;
-	}
-#about-us {
-	flex-shrink: 1;
-}
 /* do it*/
 .squre{
 	display: flex;

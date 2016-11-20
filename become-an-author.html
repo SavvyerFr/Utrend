@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="css/flexbox-sm.css" type="text/css" media="(min-width: 651px) and (max-width: 950px)">
 <link rel="stylesheet" href="css/index-old.css" type="text/css" media="(max-width: 650px)">
 <link rel="stylesheet" href="css/flexbox-old.css" type="text/css" media="(max-width: 650px)">
+<link rel="stylesheet" href="css/hamburger.css">
 </head>
 <body>
 <!--шапка сайту-->
@@ -50,9 +51,9 @@
 	</form>
 </header>
 <!--навігація-->
-<nav>
+<div class="nav-main">
 	<div class="nav-up">
-		<a href="lifestyle.html" id="lifestyle" class="active">Lifestyle</a>
+		<a href="lifestyle.html" id="lifestyle">Lifestyle</a>
 		<img src="img/line.jpg" class="line-nav">
 		<a href="travel.html" id="travel">Travel</a>
 		<img src="img/line.jpg" class="line-nav" id="line-old-del-1">
@@ -65,18 +66,31 @@
 		<a href="about-us.html" id="about-us">About us</a>
 	</div>
 	<img src="img/line-divade.png" alt="line" class="line-menu-down">
-</nav>
-<!--стаття-->
-<article>
-	<a href="index.html"><img src="img/divide-line-all.png" alt="line" class="article-name-divide"></a>
-	<img src="img/restaurant-coach.jpg" alt="modern-coach-in-restaurant" class="article-pic">
-    <h2><a href="restauran-in-road.html" class="article-name" lang="uk">Назва статті про щось там дуже важливе</a></h2>
-    <p class="text-of-article-nav" lang="uk">Вміст статті неймовірно важливий та необхідний для розуміння та спийняття світу та його принад...Вміст статті неймовірно важливий та необхідний для розуміння та спийняття світу та його принад...Вміст статті неймовірно важливий та необхідний для розуміння та спийняття світу та його принад... <a href="restauran-in-road.html" class="more">детальніше</a></p>
-    <img src="img/libruary.jpg" alt="libruary-outside-sunny" class="article-pic">
-    <h2><a href="libruary-in-wrzburg.html" class="article-name" lang="uk">Назва статті про щось там дуже важливе</a></h2>
-    <p class="text-of-article-nav" lang="uk">Вміст статті неймовірно важливий та необхідний для розуміння та спийняття світу та його принад...Вміст статті неймовірно важливий та необхідний для розуміння та спийняття світу та його принад...Вміст статті неймовірно важливий та необхідний для розуміння та спийняття світу та його принад... <a href="restauran-in-road.html" class="more">детальніше</a></p>
-</article>
-<!--підвал-->
+</div>
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+            <li><a href="index.html">UTrend</a></li>
+            <li><a href="lifestyle.html">Lifestyle</a></li>
+            <li><a href="travel.html">Travel</a></li>
+            <li><a href="he.html">He</a></li>
+			<li><a href="she.html">She</a></li>
+            <li><a href="philosophy.html">Philosophy</a></li>
+            <li><a href="about-us.html">About us</a></li>
+        </ul>
+    </div> 
+	</div>
+	</nav>
+        
 <footer>
 	<p lang="uk">Знайди нас</p>
 	<div class="end">
