@@ -2,12 +2,12 @@
 /* CSS Document */
 /*header*/
 .social-icon {
-	margin: 1% 0% 0% 0%;
-	width: 40%
+	margin: 2% 0% 2% 1%;
+	width: 40%;
 }
 .social-icon img {
-	width: 15%;
-	margin: 0% 0% 0% 1%;
+	width: 14%;
+	margin: 0%;
 }
 .form-search {
   margin: 1% 2% 1% 0%; 

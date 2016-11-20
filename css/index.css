@@ -4,6 +4,9 @@
 * {
 	max-width: 1280px;
 	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	
 }
 * a {
 	text-decoration: none;
@@ -41,10 +44,30 @@ header {
 	width: 100%;
 }
 /*burger menu*/
+.navbar-brand {
+	margin: 0px 0px 0px 6px;
+}
+.navbar {
+         border-radius: 0;
+    } 
+nav {
+	margin: 0;
+}
+.icon-bar {
+  color: black;
+  border-color: black;
+  background-color: black;
+}
+.navbar-header{
+	border-radius: 0;
+}
 /*burger-size*/
 @media (max-width: 950px) {
     .navbar-header {
         float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
     }
     .navbar-toggle {
         display: block;
@@ -53,12 +76,16 @@ header {
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
     .navbar-collapse.collapse {
         display: none!important;
     }
     .navbar-nav {
         float: none!important;
-        margin: 7.5px -15px;
+        margin-top: 7.5px;
     }
     .navbar-nav>li {
         float: none;
@@ -67,11 +94,15 @@ header {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .collapse.in{
+        display:block !important;
+    }
 }
-/*change img video*/
+/*carousel*/
 .container {
 	margin: 0%;
 	width: 100%;
+	padding: 0;
 }
 .carousel, .slide {
 	margin: 0%;
