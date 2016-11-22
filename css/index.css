@@ -6,7 +6,6 @@
 	margin: 0 auto;
 	padding: 0;
 	border: 0;
-	
 }
 * a {
 	text-decoration: none;
@@ -34,7 +33,8 @@ header {
 	font-size: 3em;
 	}
 .line-nav {
-	margin: 0%;
+	margin: 6px;
+	height: 3em;
 }
 .square-nav{
 	margin: 0%;
@@ -50,8 +50,10 @@ header {
 .navbar {
          border-radius: 0;
     } 
-nav {
-	margin: 0;
+nav, .navbar, .navbar-inverse{
+	margin-bottom: 0px;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
 }
 .icon-bar {
   color: black;
@@ -149,6 +151,7 @@ aside {
 /* become author*/
 .become-an-author{
 	width: 100%;
+	font-style: italic;
 }
 /*another line */
 .divide-line-all {
@@ -167,25 +170,43 @@ aside {
 .post-main-right, .post-main-left {
 	margin: 1% 0%;
 }
-/* footer */
+/*footer*/
 footer {
 	margin: 0%;
 	background-color: #000;
 	text-decoration: none; 	
-	font-family: Ropa Sans; 
-	color:#c3bebe;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"; 
 	}
-footer a {
-	font-family: Ropa Sans; 
-	color:#c3bebe;
-	}
-footer a:hover {
-	font-family: Ropa Sans; 
-	color:#fff;
-	}
-.creation {
-	color: red;
-	}
+.footer-info {
+	padding: 3% 0%;
+}
+.first-line a {
+	color: #c3bebe;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"; 
+	font-size: 1em;
+}
+.second-line a {
+	color: #c3bebe;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"; 
+	font-size: 1em;
+}
+.first-line a:hover {
+	text-decoration: none;
+	color: #fff;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"; 
+	font-size: 1em;
+}
+.second-line a:hover {
+	text-decoration: none;
+	color: #fff;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"; 
+	font-size: 1em;
+}
+.third-line {
+	color: #770204;
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif"; 
+	font-size: 1em;
+}
 /*pages with article*/
 .article-pic {
 	width: 100%;
@@ -199,38 +220,96 @@ article{
 	width: 100%;
 }
 article h2, p {
-	margin: 1% 0%; 
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif; 
+	margin: 1% 0%;
 }
 article h2 {
 	text-align: center;
 }
 .article-name {
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif; 
+	font-style: bold;
 	color: #000;
+	
 }
 .article-name:hover {
-	color: #c3bebe;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif; 
+	text-decoration: none;
+	color: #000;
+}
+.divide-article {
+	width: 100%;
+	margin: 2% 0%;
 }
 /*article*/
+.article-name {
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif; 
+	font-style: bold;
+}
 .name-of-article-nav{
 	margin: 2% 0%;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif; 
+	font-style: bold;
+}
+.share-article {
+	float: left;
 }
 .something-interest {
 	margin: 2% 0%;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif; 
+	font: bold;
 	width: 100%;
 	display: flex;
 	flex-direction: row-reverse;
 }
 #something-interest-text {
+	margin: 0% 0% 0% 5%;
 	color: #000;
 	font-size: 2em;
+	width: 25%;
 }
-.something-interest img{
+.something-interest-line-logo {
 	margin: 0%;
-	width: 70%;
+	width: 5%;
+	height: 5%;
+}
+.something-interest-line {
+	margin: 0% 0% 0% 4%;
+	height: 7%;
+	width: 69%;
 }
 /*about us*/
 .information-about-us {
 	margin: 2% 1%;
-	text-align: center;
+	text-align: left;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif; 
 	font-size: 1.8em;
+}
+.information-about-us-sign {
+	margin: 0;
+	text-align: right;
+	font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif; 
+	font-size: 1.8em;
+}
+/*author*/
+.title-of-author {
+	text-align: center;
+	font-size: 5em;
+}
+.article-of-author {
+	text-align: center;
+	font-size: 3em;
+}
+.form-to-author {
+	margin: 0% 20% 0% 20%;
+	font-size: 1.5em;
+}
+.form-but {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0% 20%;
+}
+*:focus {
+	outline: none;
 }

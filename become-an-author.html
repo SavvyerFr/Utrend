@@ -2,12 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Utrend</title>
+        <title>Become author</title>
         <!-- Latest compiled and minified CSS -->
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     	<!-- Optional theme -->
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/tools/favicon.ico" type="image/x-icon">
     	<link rel="stylesheet" href="css/index.css" type="text/css" />    
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Dorsa|Fjalla+One|Oranienbaum|Ropa+Sans|Six+Caps|Slabo+27px|Teko" rel="stylesheet">
@@ -24,51 +24,47 @@
         <header>
             <!--посилання на соцмережі-->
             <div class="social-icon">
-                <a href="index.html">
-                    <img src="img/small-color-square-nav.png" alt="nav">
-                </a>
                 <a href="#null" onClick="openWin1()">
-                    <img src="img/google+.png" alt="google+">
+                    <img src="img/tools/google+.png" alt="google+">
                 </a>
                 <a href="#null" onClick="openWin2()">
-                    <img src="img/facebook.png"/>
+                    <img src="img/tools/facebook.png"/>
                 </a>
                 <a href="#null" onClick="openWin3()">
-                    <img src="img/twitter.png" alt="twitter">
+                    <img src="img/tools/twitter.png" alt="twitter">
                 </a>
                 <a href="#null" onClick="openWin4()">
-                    <img src="img/pinterest.png" alt="pinterest">
+                    <img src="img/tools/pinterest.png" alt="pinterest">
                 </a>
                 <a href="https://vk.com/share.php?url=https://savvyerfr.github.io/Utrend/index.html">
-                    <img src="img/vk.png" alt="vkontakte">
+                    <img src="img/tools/vk.png" alt="vkontakte">
                 </a>
             </div>
             <form class="form-search" method="get" action="/search" target="_blank">
-                <input id="spterm" type="text" name="q" placeholder="Give me..." value=""/>
-            </form>
+                <input type="text" name="" placeholder="Give me..." value=""/>
+          </form>
         </header>
-
         <!--навігація-->
         <div class="nav-main">
             <div class="nav-up">
                 <a href="lifestyle.html" id="lifestyle">Lifestyle</a>
-                <img src="img/line.jpg" class="line-nav">
+                <img src="img/tools/line.jpg" class="line-nav">
                 <a href="travel.html" id="travel">Travel</a>
-                <img src="img/line.jpg" class="line-nav" id="line-old-del-1">
+                <img src="img/tools/line.jpg" class="line-nav" id="line-old-del-1">
                 <a href="he.html" id="he">He</a>
                 <a href="index.html" class="square-nav">
-                    <img src="img/small-color-square.png" alt="small-color-square" class="square-nav">
+                    <img src="img/tools/small-color-square.png" alt="small-color-square" class="square-nav">
                 </a>
                 <a href="she.html" id="she">She</a>
-                <img src="img/line.jpg" class="line-nav" id="line-old-del-2">
+                <img src="img/tools/line.jpg" class="line-nav" id="line-old-del-2">
                 <a href="philosophy.html" id="philosophy">Philosophy</a>
-                <img src="img/line.jpg" class="line-nav">
+                <img src="img/tools/line.jpg" class="line-nav">
                 <a href="about-us.html" id="about-us">About us</a>
             </div>
-            <img src="img/line-divade.png" alt="line" class="line-menu-down">
+            <img src="img/tools/line-divade.png" alt="line" class="line-menu-down">
         </div>
         <!--бургер меню-->
-        <nav class="navbar navbar-inverse" role="navigation">
+        <nav class="navbar navbar-inverse" role="navigation"> 
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -102,30 +98,80 @@
                 </div>
             </div>
         </nav>
-        <!--підвал-->
+        <!--form-->
+        <section>
+			<h2 class="title-of-author">Хочеш долучитися?</h2>
+			<p class="article-of-author">Якщо тобі є про що розказати -<br>заповни анкету і ми<br>невдовзі з тобою звяжемося</p>
+            <form method="POST" action="https://formspree.io/fokshei.d@gmail.com" class="form-to-author">
+                <fieldset>
+                    <legend lang="ua"></legend>
+                    <!--name-->
+                    <label for="name" class="form-mail-p">Імя:</label>
+                    <input type="text" name="name" id="name" placeholder="Ю-Тренд" value="" required class="form-mail">
+                    <br>
+                    <label for="surname" class="form-surname-p">Прізвище:</label>
+                    <!--surname-->
+                    <input type="text" name="surname" id="surname" placeholder="Ю-Трендович" value="" class="form-surname" required>
+                    <br>
+				</fieldset>
+                <fieldset>
+                   <legend lang="ua"></legend>
+                    <!--age-->
+                    <label for="date" class="form-birdth-p">Дата народження</label>
+                    <input type="date" name="date" class="form-birdth" id="date" required>
+                    <br>
+                    <!--освіта-->
+                    <label for="graduation" class="form-graduation-p">Освіта</label>
+                    <select name="graduation" class="form-graduaton" id="graduation">
+                       <option value="other">Інша</option>
+                        <option value="full">Повна середня освіта</option>
+                        <option value="hight">Вища, бакалавр</option>
+                        <option value="magister">Вища, магістр</option>
+                    </select>
+                    <br>
+                    <!--email-->
+                    <label for="email" class="form-mail-p">Email:</label>
+                    <input type="email" name="email" id="email" class="form-mail" placeholder="utrend@utrend.com" required>
+                    <br>
+				</fieldset>
+                <fieldset>
+                	<legend lang="ua"></legend>
+                	<label for="topic">Рубрики в яких хочете працювати</label>
+                	<br>
+                	<input type="checkbox" name="language" class="topic" value="Lifestyle">Lifestyle<br>
+                	<input type="checkbox" name="language" class="topic" value="Travel">Travel<br>
+                	<input type="checkbox" name="language" class="topic" value="He">He<br>
+                	<input type="checkbox" name="language" class="topic" value="She">She<br>
+                	<input type="checkbox" name="language" class="topic" value="Phylosophy">Phylosophy<br>
+                	<br>
+				</fieldset>
+               <div class="form-but">
+                <input type="reset" name="reset" value="Відмовитися">
+                <input type="submit" name="submit" value="Надіслати" id="submit">
+				</div>
+            </form>
+        </section>
+       <!--підвал-->
         <footer>
-            <p lang="uk">Знайди нас</p>
-            <div class="end">
-                <div class="main-info">
-                    <p>
-                        Anna-Maria <a href="https://www.facebook.com/am.luchak" title="My FaceBook profile">Facebook</a>
-                        or <a href="https://vk.com/id132372385" title="My Instagram profile">Instagram</a>
-                        <br>
-                        Dmytro <a href="https://www.facebook.com/dmytro.fokshei" title="My FaceBook profile">Facebook</a>
-                        or <a ref="https://vk.com/savyer" title="My Instagram profile">Instagram</a>
-                    </p>
-                </div>
-                <div class="creation">
-                    <p>
-                        Utrend Creations<br>2016
-                    </p>
-                </div>
-            </div>
+			<div class="footer-info">
+            	<div class="first-line">
+					<a href="about-us.html" lang="uk">Про нас</a>
+					<a href="about-us.html" lang="uk">Контакти</a>
+				</div>
+				<div class="second-line">
+					<a href="become-an-author.html" lang="uk">Стати частиною проекту</a>
+					<a href="opinion.html" lang="uk">Поскаржитися</a>
+				</div>
+				<div class="third-line">
+					<p>Utrend<br>2016</p>
+				</div>
+			</div>
         </footer>
         <!--library-->
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     	<!-- Latest compiled and minified JavaScript -->
     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    	<script type="text/javascript" src="js/form.js"></script>
     	<script type="text/javascript" src="js/smooth-scroll.js"></script>
 		<script type="text/javascript" src="js/collapse-navbar.js"></script>
 		<script type="text/javascript" src="js/share.js"></script>

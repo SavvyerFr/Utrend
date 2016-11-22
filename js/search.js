@@ -1,5 +1,5 @@
 jQuery(document).ready(function() {
- var minlen = 3; // минимальная длина слова
+ var minlen = 2; // минимальная длина слова
  var paddingtop = 30; // отступ сверху при прокрутке
  var scrollspeed = 200; // время прокрутки
  var keyint = 1000; // интервал между нажатиями клавиш
