@@ -313,3 +313,6 @@ article h2 {
 *:focus {
 	outline: none;
 }
+.nosite {
+	width: 100%;
+}
